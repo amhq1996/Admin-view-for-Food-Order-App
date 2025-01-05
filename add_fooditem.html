@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add FoodItem</title>
+    </head>
+    <body>
+        <div class="header"> </div>
+
+        <div class="main"> </div>
+            <div class="container">
+               <h1> Add FoodItem</h1>
+               <hr>
+               <form action="">
+                  <table>
+                    <tr>
+                        <th colspan="2"> FoodItem Information </th>
+                    </tr>
+                     <tr> 
+                        <td> <label for="FoodItem_name"> FoodItem Name: </label> </td>
+                        <td> <input type="text" name="FoodItem_name" id="FoodItem_name"> </td>
+                     </tr>
+                     <tr> 
+                        <td> <label for="FoodItem_desc"> FoodItem Description: </label> </td>
+                        <td><textarea name="FoodItem_desc" id="FoodItem_desc" cols="30" rows="5"> </textarea> </td>
+                     </tr>
+                     <tr> 
+                        <td><label for="available"> Available ? </label> </td>
+                        <td> <input type="checkbox" name="available" id="available"> </td>
+                     </tr>
+                     <tr> 
+                        <td><label for="vegetarian"> Vegetarian ? </label> </td>
+                        <td> <input type="checkbox" name="vegetarian" id="vegetarian"> </td>
+                     </tr>
+                     <tr>
+                        <td><label for="category"> Category </label></td>
+                        <td><select name="category" id="category"> 
+                            <option value="Pasta">Pasta </option>
+                            <option value="Dessert"> Dessert </option>
+                            <option value="Salad"> Salad </option>
+                            <option value="Drinks"> Drinks</option>
+                            <option value="Starters"> Starters </option>
+                        </select> </td>
+                     </tr>
+                     <tr>
+                        <td><label for="cuisine"> Cuisine </label></td>
+                        <td><select name="cuisine" id="cuisine"> 
+                            <option value="Italian">Italian </option>
+                            <option value="Cuban"> Cuban </option>
+                            <option value="Mexican"> Mexican </option>
+                            <option value="Chinese"> Chinese</option>
+
+                        </select> </td>
+                     </tr>
+                     <tr> 
+                        <td> <label for="image_url"> Image URL: </label> </td>
+                        <td> <input type="text" name="image_url" id="image_url">  </td>
+                     </tr>
+                     <tr> 
+                        <td><button> Discard </button> </td>
+                        <td> <input type="submit" value="Save">  </td>
+                     </tr>
+                  </table>
+               </form>
+            </div>
+
+        <div class="footer"> </div>
+    </body>
+</html>
